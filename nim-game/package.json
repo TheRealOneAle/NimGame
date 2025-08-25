@@ -1,0 +1,21 @@
+{
+  "name": "nim-game",
+  "version": "1.0.0",
+  "description": "A simple implementation of the Nim Game where players take turns removing stones from a heap.",
+  "main": "src/scripts/app.js",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [
+    "nim",
+    "game",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
