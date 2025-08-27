@@ -46,3 +46,21 @@ button:hover {
     font-size: 1.2em;
     color: #555;
 }
+
+.stones-visual {
+    margin: 20px 0;
+    display: grid;
+    justify-content: end;
+    align-items: end;
+    gap: 2px;
+    /* El grid-template-columns se ajustará desde JS */
+    min-width: 2em;
+    min-height: 10em;
+}
+.stone-emoji {
+    font-size: 2em;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
